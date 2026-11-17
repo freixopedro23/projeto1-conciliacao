@@ -1,0 +1,7 @@
+provedor,metodo,tipo,taxa_pct,taxa_fixa,prazo_liquidacao_dias
+PagaJá,PIX,DEPOSITO,0.70,0.00,0
+PagaJá,PIX,SAQUE,0.00,1.20,0
+PagaJá,CARTAO,DEPOSITO,2.79,0.30,2
+LiquidaPay,PIX,DEPOSITO,0.60,0.10,1
+LiquidaPay,PIX,SAQUE,0.00,1.50,0
+LiquidaPay,CARTAO,DEPOSITO,2.49,0.00,2

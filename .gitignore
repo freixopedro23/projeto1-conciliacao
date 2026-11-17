@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ambiente virtual e segredos
+.venv/
+venv/
+.env
+
+# Bancos de dados (gerados pelo script)
+*.db
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

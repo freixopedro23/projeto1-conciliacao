@@ -1,0 +1,126 @@
+chave,provedor,categoria,impacto_rs,detalhe
+TX-000313,LIQUIDAPAY,AUSENTE_NO_EXTRATO,44.29,"Aprovada no interno, liquidação esperada em 2026-10-10, sem lançamento no extrato"
+TX-000483,LIQUIDAPAY,AUSENTE_NO_EXTRATO,70.17,"Aprovada no interno, liquidação esperada em 2026-10-11, sem lançamento no extrato"
+TX-000746,PAGAJA,AUSENTE_NO_EXTRATO,96.76,"Aprovada no interno, liquidação esperada em 2026-10-22, sem lançamento no extrato"
+TX-000994,PAGAJA,AUSENTE_NO_EXTRATO,231.84,"Aprovada no interno, liquidação esperada em 2026-10-31, sem lançamento no extrato"
+TX-001956,PAGAJA,AUSENTE_NO_EXTRATO,213.97,"Aprovada no interno, liquidação esperada em 2026-10-07, sem lançamento no extrato"
+TX-002366,LIQUIDAPAY,AUSENTE_NO_EXTRATO,22.78,"Aprovada no interno, liquidação esperada em 2026-10-06, sem lançamento no extrato"
+TX-003040,LIQUIDAPAY,AUSENTE_NO_EXTRATO,275.13,"Aprovada no interno, liquidação esperada em 2026-10-24, sem lançamento no extrato"
+TX-003277,PAGAJA,AUSENTE_NO_EXTRATO,1218.93,"Aprovada no interno, liquidação esperada em 2026-10-07, sem lançamento no extrato"
+TX-003979,LIQUIDAPAY,AUSENTE_NO_EXTRATO,141.67,"Aprovada no interno, liquidação esperada em 2026-10-14, sem lançamento no extrato"
+TX-004194,PAGAJA,AUSENTE_NO_EXTRATO,14.09,"Aprovada no interno, liquidação esperada em 2026-10-25, sem lançamento no extrato"
+TX-004510,PAGAJA,AUSENTE_NO_EXTRATO,81.36,"Aprovada no interno, liquidação esperada em 2026-10-08, sem lançamento no extrato"
+TX-005915,LIQUIDAPAY,AUSENTE_NO_EXTRATO,134.07,"Aprovada no interno, liquidação esperada em 2026-10-28, sem lançamento no extrato"
+TX-006900,PAGAJA,AUSENTE_NO_INTERNO,71.77,DEPOSITO liquidado pelo provedor sem registro no sistema interno
+TX-006937,PAGAJA,AUSENTE_NO_INTERNO,718.60,DEPOSITO liquidado pelo provedor sem registro no sistema interno
+TX-006974,LIQUIDAPAY,AUSENTE_NO_INTERNO,445.23,SAQUE liquidado pelo provedor sem registro no sistema interno
+TX-007011,LIQUIDAPAY,AUSENTE_NO_INTERNO,41.66,DEPOSITO liquidado pelo provedor sem registro no sistema interno
+TX-007048,PAGAJA,AUSENTE_NO_INTERNO,96.03,DEPOSITO liquidado pelo provedor sem registro no sistema interno
+TX-007085,PAGAJA,AUSENTE_NO_INTERNO,237.05,DEPOSITO liquidado pelo provedor sem registro no sistema interno
+TX-007122,PAGAJA,AUSENTE_NO_INTERNO,2030.79,SAQUE liquidado pelo provedor sem registro no sistema interno
+TX-007159,PAGAJA,AUSENTE_NO_INTERNO,1063.07,SAQUE liquidado pelo provedor sem registro no sistema interno
+TX-000784,PAGAJA,DUPLICIDADE,428.22,Lançamento repetido no extrato
+TX-000946,PAGAJA,DUPLICIDADE,137.70,Lançamento repetido no extrato
+TX-001229,PAGAJA,DUPLICIDADE,505.55,Lançamento repetido no extrato
+TX-001493,PAGAJA,DUPLICIDADE,129.97,Lançamento repetido no extrato
+TX-001631,PAGAJA,DUPLICIDADE,164.44,Lançamento repetido no extrato
+TX-001969,PAGAJA,DUPLICIDADE,235.28,Lançamento repetido no extrato
+TX-002422,PAGAJA,DUPLICIDADE,13.22,Lançamento repetido no extrato
+TX-005259,PAGAJA,DUPLICIDADE,2041.52,Lançamento repetido no extrato
+TX-005553,PAGAJA,DUPLICIDADE,946.73,Lançamento repetido no extrato
+TX-005617,PAGAJA,DUPLICIDADE,90.61,Lançamento repetido no extrato
+TX-000785,PAGAJA,ESTORNO_NAO_REGISTRADO,56.14,Provedor estornou; interno segue APROVADA
+TX-001978,PAGAJA,ESTORNO_NAO_REGISTRADO,361.30,Provedor estornou; interno segue APROVADA
+TX-002059,PAGAJA,ESTORNO_NAO_REGISTRADO,295.58,Provedor estornou; interno segue APROVADA
+TX-002641,LIQUIDAPAY,ESTORNO_NAO_REGISTRADO,311.79,Provedor estornou; interno segue APROVADA
+TX-003810,PAGAJA,ESTORNO_NAO_REGISTRADO,96.52,Provedor estornou; interno segue APROVADA
+TX-004600,LIQUIDAPAY,ESTORNO_NAO_REGISTRADO,115.47,Provedor estornou; interno segue APROVADA
+TX-005408,PAGAJA,ESTORNO_NAO_REGISTRADO,71.52,Provedor estornou; interno segue APROVADA
+TX-000424,PAGAJA,LIQUIDACAO_ATRASADA,42.80,Liquidou 3 dia(s) depois do prazo (2026-10-01)
+TX-001392,LIQUIDAPAY,LIQUIDACAO_ATRASADA,76.37,Liquidou 1 dia(s) depois do prazo (2026-10-07)
+TX-001677,PAGAJA,LIQUIDACAO_ATRASADA,539.00,Liquidou 3 dia(s) depois do prazo (2026-10-12)
+TX-002161,LIQUIDAPAY,LIQUIDACAO_ATRASADA,197.98,Liquidou 3 dia(s) depois do prazo (2026-10-13)
+TX-002508,LIQUIDAPAY,LIQUIDACAO_ATRASADA,558.87,Liquidou 3 dia(s) depois do prazo (2026-10-08)
+TX-002853,LIQUIDAPAY,LIQUIDACAO_ATRASADA,81.93,Liquidou 3 dia(s) depois do prazo (2026-10-03)
+TX-003001,PAGAJA,LIQUIDACAO_ATRASADA,120.28,Liquidou 2 dia(s) depois do prazo (2026-10-12)
+TX-003382,PAGAJA,LIQUIDACAO_ATRASADA,126.39,Liquidou 2 dia(s) depois do prazo (2026-10-07)
+TX-004102,PAGAJA,LIQUIDACAO_ATRASADA,1389.25,Liquidou 1 dia(s) depois do prazo (2026-10-10)
+TX-005079,PAGAJA,LIQUIDACAO_ATRASADA,202.16,Liquidou 1 dia(s) depois do prazo (2026-10-11)
+TX-005702,PAGAJA,LIQUIDACAO_ATRASADA,843.40,Liquidou 3 dia(s) depois do prazo (2026-10-20)
+TX-000114,LIQUIDAPAY,STATUS_DIVERGENTE,81.35,"Interno RECUSADA, mas o provedor liquidou"
+TX-000477,LIQUIDAPAY,STATUS_DIVERGENTE,36.35,"Interno RECUSADA, mas o provedor liquidou"
+TX-000538,PAGAJA,STATUS_DIVERGENTE,178.80,"Interno RECUSADA, mas o provedor liquidou"
+TX-002565,PAGAJA,STATUS_DIVERGENTE,176.94,"Interno RECUSADA, mas o provedor liquidou"
+TX-002627,PAGAJA,STATUS_DIVERGENTE,111.59,"Interno PENDENTE, mas o provedor liquidou"
+TX-002778,PAGAJA,STATUS_DIVERGENTE,139.06,"Interno RECUSADA, mas o provedor liquidou"
+TX-004447,PAGAJA,STATUS_DIVERGENTE,1341.78,"Interno PENDENTE, mas o provedor liquidou"
+TX-005022,LIQUIDAPAY,STATUS_DIVERGENTE,977.77,"Interno RECUSADA, mas o provedor liquidou"
+TX-005451,LIQUIDAPAY,STATUS_DIVERGENTE,222.69,"Interno PENDENTE, mas o provedor liquidou"
+TX-005826,PAGAJA,STATUS_DIVERGENTE,200.88,"Interno PENDENTE, mas o provedor liquidou"
+TX-000012,LIQUIDAPAY,TAXA_INCORRETA,1.62,Taxa cobrada 5.65 x contrato 4.03
+TX-000295,LIQUIDAPAY,TAXA_INCORRETA,0.67,Taxa cobrada 2.35 x contrato 1.68
+TX-000362,LIQUIDAPAY,TAXA_INCORRETA,1.55,Taxa cobrada 5.40 x contrato 3.85
+TX-000473,LIQUIDAPAY,TAXA_INCORRETA,0.54,Taxa cobrada 1.89 x contrato 1.35
+TX-000563,LIQUIDAPAY,TAXA_INCORRETA,3.13,Taxa cobrada 10.90 x contrato 7.77
+TX-000651,LIQUIDAPAY,TAXA_INCORRETA,0.47,Taxa cobrada 1.64 x contrato 1.17
+TX-000652,LIQUIDAPAY,TAXA_INCORRETA,0.42,Taxa cobrada 1.44 x contrato 1.02
+TX-000841,LIQUIDAPAY,TAXA_INCORRETA,0.53,Taxa cobrada 1.84 x contrato 1.31
+TX-001087,LIQUIDAPAY,TAXA_INCORRETA,1.47,Taxa cobrada 5.13 x contrato 3.66
+TX-001214,LIQUIDAPAY,TAXA_INCORRETA,0.45,Taxa cobrada 1.57 x contrato 1.12
+TX-001269,LIQUIDAPAY,TAXA_INCORRETA,3.00,Taxa cobrada 10.47 x contrato 7.47
+TX-001308,LIQUIDAPAY,TAXA_INCORRETA,0.30,Taxa cobrada 1.04 x contrato 0.74
+TX-001449,LIQUIDAPAY,TAXA_INCORRETA,2.49,Taxa cobrada 8.69 x contrato 6.20
+TX-001546,LIQUIDAPAY,TAXA_INCORRETA,0.10,Taxa cobrada 0.35 x contrato 0.25
+TX-001620,LIQUIDAPAY,TAXA_INCORRETA,0.67,Taxa cobrada 2.32 x contrato 1.65
+TX-001868,LIQUIDAPAY,TAXA_INCORRETA,6.09,Taxa cobrada 21.27 x contrato 15.18
+TX-001974,LIQUIDAPAY,TAXA_INCORRETA,0.43,Taxa cobrada 1.48 x contrato 1.05
+TX-002005,LIQUIDAPAY,TAXA_INCORRETA,5.22,Taxa cobrada 18.21 x contrato 12.99
+TX-002222,LIQUIDAPAY,TAXA_INCORRETA,0.45,Taxa cobrada 1.57 x contrato 1.12
+TX-002294,LIQUIDAPAY,TAXA_INCORRETA,0.29,Taxa cobrada 1.01 x contrato 0.72
+TX-002453,LIQUIDAPAY,TAXA_INCORRETA,1.26,Taxa cobrada 4.39 x contrato 3.13
+TX-002692,LIQUIDAPAY,TAXA_INCORRETA,0.36,Taxa cobrada 1.27 x contrato 0.91
+TX-002794,LIQUIDAPAY,TAXA_INCORRETA,2.80,Taxa cobrada 9.77 x contrato 6.97
+TX-002805,LIQUIDAPAY,TAXA_INCORRETA,0.56,Taxa cobrada 1.94 x contrato 1.38
+TX-002823,LIQUIDAPAY,TAXA_INCORRETA,3.49,Taxa cobrada 12.18 x contrato 8.69
+TX-002831,LIQUIDAPAY,TAXA_INCORRETA,5.40,Taxa cobrada 18.84 x contrato 13.44
+TX-002890,LIQUIDAPAY,TAXA_INCORRETA,0.81,Taxa cobrada 2.85 x contrato 2.04
+TX-002899,LIQUIDAPAY,TAXA_INCORRETA,1.86,Taxa cobrada 6.48 x contrato 4.62
+TX-002948,LIQUIDAPAY,TAXA_INCORRETA,1.98,Taxa cobrada 6.93 x contrato 4.95
+TX-002991,LIQUIDAPAY,TAXA_INCORRETA,1.36,Taxa cobrada 4.74 x contrato 3.38
+TX-003007,LIQUIDAPAY,TAXA_INCORRETA,0.80,Taxa cobrada 2.82 x contrato 2.02
+TX-003063,LIQUIDAPAY,TAXA_INCORRETA,2.05,Taxa cobrada 7.14 x contrato 5.09
+TX-003153,LIQUIDAPAY,TAXA_INCORRETA,1.42,Taxa cobrada 4.94 x contrato 3.52
+TX-003271,LIQUIDAPAY,TAXA_INCORRETA,2.91,Taxa cobrada 10.14 x contrato 7.23
+TX-003320,LIQUIDAPAY,TAXA_INCORRETA,6.06,Taxa cobrada 21.17 x contrato 15.11
+TX-003627,LIQUIDAPAY,TAXA_INCORRETA,0.37,Taxa cobrada 1.29 x contrato 0.92
+TX-003784,LIQUIDAPAY,TAXA_INCORRETA,1.76,Taxa cobrada 6.12 x contrato 4.36
+TX-003970,LIQUIDAPAY,TAXA_INCORRETA,7.65,Taxa cobrada 26.70 x contrato 19.05
+TX-004085,LIQUIDAPAY,TAXA_INCORRETA,1.45,Taxa cobrada 5.05 x contrato 3.60
+TX-004169,LIQUIDAPAY,TAXA_INCORRETA,0.53,Taxa cobrada 1.85 x contrato 1.32
+TX-004330,LIQUIDAPAY,TAXA_INCORRETA,4.10,Taxa cobrada 14.31 x contrato 10.21
+TX-004339,LIQUIDAPAY,TAXA_INCORRETA,0.21,Taxa cobrada 0.73 x contrato 0.52
+TX-004550,LIQUIDAPAY,TAXA_INCORRETA,2.23,Taxa cobrada 7.79 x contrato 5.56
+TX-004778,LIQUIDAPAY,TAXA_INCORRETA,0.86,Taxa cobrada 3.02 x contrato 2.16
+TX-004842,LIQUIDAPAY,TAXA_INCORRETA,0.49,Taxa cobrada 1.70 x contrato 1.21
+TX-004843,LIQUIDAPAY,TAXA_INCORRETA,1.96,Taxa cobrada 6.86 x contrato 4.90
+TX-004989,LIQUIDAPAY,TAXA_INCORRETA,4.89,Taxa cobrada 17.07 x contrato 12.18
+TX-005064,LIQUIDAPAY,TAXA_INCORRETA,1.78,Taxa cobrada 6.21 x contrato 4.43
+TX-005188,LIQUIDAPAY,TAXA_INCORRETA,0.46,Taxa cobrada 1.60 x contrato 1.14
+TX-005195,LIQUIDAPAY,TAXA_INCORRETA,0.52,Taxa cobrada 1.83 x contrato 1.31
+TX-005261,LIQUIDAPAY,TAXA_INCORRETA,4.12,Taxa cobrada 14.37 x contrato 10.25
+TX-005290,LIQUIDAPAY,TAXA_INCORRETA,1.15,Taxa cobrada 4.02 x contrato 2.87
+TX-005481,LIQUIDAPAY,TAXA_INCORRETA,0.73,Taxa cobrada 2.57 x contrato 1.84
+TX-005538,LIQUIDAPAY,TAXA_INCORRETA,1.32,Taxa cobrada 4.62 x contrato 3.30
+TX-005683,LIQUIDAPAY,TAXA_INCORRETA,1.15,Taxa cobrada 4.00 x contrato 2.85
+TX-005902,LIQUIDAPAY,TAXA_INCORRETA,1.45,Taxa cobrada 5.05 x contrato 3.60
+TX-005920,LIQUIDAPAY,TAXA_INCORRETA,5.53,Taxa cobrada 19.29 x contrato 13.76
+TX-005966,LIQUIDAPAY,TAXA_INCORRETA,1.34,Taxa cobrada 4.67 x contrato 3.33
+TX-000118,LIQUIDAPAY,VALOR_DIVERGENTE,26.91,Bruto interno 185.99 x extrato 212.90
+TX-000775,PAGAJA,VALOR_DIVERGENTE,28.18,Bruto interno 1092.54 x extrato 1120.72
+TX-001746,LIQUIDAPAY,VALOR_DIVERGENTE,32.07,Bruto interno 192.47 x extrato 160.40
+TX-002542,PAGAJA,VALOR_DIVERGENTE,50.52,Bruto interno 235.54 x extrato 286.06
+TX-003411,LIQUIDAPAY,VALOR_DIVERGENTE,12.91,Bruto interno 391.76 x extrato 378.85
+TX-003727,LIQUIDAPAY,VALOR_DIVERGENTE,47.37,Bruto interno 83.48 x extrato 130.85
+TX-004676,LIQUIDAPAY,VALOR_DIVERGENTE,55.63,Bruto interno 250.92 x extrato 306.55
+TX-004756,LIQUIDAPAY,VALOR_DIVERGENTE,29.12,Bruto interno 1956.63 x extrato 1927.51
+TX-004759,PAGAJA,VALOR_DIVERGENTE,6.58,Bruto interno 243.80 x extrato 250.38
