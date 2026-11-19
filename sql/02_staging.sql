@@ -18,19 +18,19 @@ CREATE OR REPLACE VIEW stg_extrato AS
     UNION ALL
 
     SELECT
-        'PAGAJA',
-        OVERLAY(UPPER(TRIM(pedido)) PLACING '-' FROM 3 FOR 0),
+        'PAGAJA'                                                                    AS id_provedor,
+        OVERLAY(UPPER(TRIM(pedido)) PLACING '-' FROM 3 FOR 0)                       AS id_transacao,
         CASE UPPER(TRIM(operacao))
             WHEN 'C' THEN 'DEPOSITO'
             WHEN 'D' THEN 'SAQUE'
             WHEN 'E' THEN 'ESTORNO'
             ELSE UPPER(TRIM(operacao))
-        END,
-        REPLACE(REPLACE(valor_bruto,   '.', ''), ',', '.')::numeric(12,2),
-        REPLACE(REPLACE(taxa,          '.', ''), ',', '.')::numeric(12,2),
-        REPLACE(REPLACE(valor_liquido, '.', ''), ',', '.')::numeric(12,2),     
-        TO_DATE(data_operacao, 'DD/MM/YYYY'),
-        TO_DATE(data_liquidacao, 'DD/MM/YYYY')
+        END                                                                         AS ds_tp_lancamento,
+        REPLACE(REPLACE(valor_bruto,   '.', ''), ',', '.')::numeric(12,2)           AS vl_bruto,
+        REPLACE(REPLACE(taxa,          '.', ''), ',', '.')::numeric(12,2)           AS vl_taxa,
+        REPLACE(REPLACE(valor_liquido, '.', ''), ',', '.')::numeric(12,2)           AS vl_liquido,
+        TO_DATE(data_operacao, 'DD/MM/YYYY')                                        AS dt_lancamento,
+        TO_DATE(data_liquidacao, 'DD/MM/YYYY')                                      AS dt_liquidacao
     FROM raw_extrato_pagaja
 ;
 
