@@ -7,15 +7,15 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
 
 RAIZ = Path(__file__).resolve().parent.parent
-DADOS = RAIZ / "dados"
 DDL = RAIZ / "sql" / "00_ddl_raw.sql"
 
 # tabela -> (arquivo, separador)
 ARQUIVOS = {
-    "raw_transacoes_internas": ("transacoes_internas.csv", ","),
-    "raw_extrato_pagaja": ("extrato_pagaja.csv", ";"),
-    "raw_extrato_liquidapay": ("extrato_liquidapay.csv", ","),
-    "raw_taxas_contratadas": ("taxas_contratadas.csv", ","),
+    "raw_transacoes_internas": ("dados/transacoes_internas.csv", ","),
+    "raw_extrato_pagaja": ("dados/extrato_pagaja.csv", ";"),
+    "raw_extrato_liquidapay": ("dados/extrato_liquidapay.csv", ","),
+    "raw_taxas_contratadas": ("dados/taxas_contratadas.csv", ","),
+    "raw_gabarito": ("gabarito/gabarito_divergencias.csv", ","),
 }
 
 
@@ -36,7 +36,7 @@ def recriar_tabelas(engine):
 
 
 def carregar_tabela(engine, tabela, arquivo, sep):
-    df = pd.read_csv(DADOS / arquivo, sep=sep, dtype=str, keep_default_na=False)
+    df = pd.read_csv(RAIZ / arquivo, sep=sep, dtype=str, keep_default_na=False)
     df.to_sql(tabela, engine, if_exists="append", index=False,
               method="multi", chunksize=1000)
     return len(df)
